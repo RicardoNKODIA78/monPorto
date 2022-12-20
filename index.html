@@ -1,14 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MonPorto</title>
+	<!---css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>
-        jfiseqofkzaf^lza^froza
-    </h1>
+
+	<!----header design--->
+	<header>
+		<a href="#home" class="logo">Portofoli<span>o</span>.</a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Acceuil</a></li>
+			<li><a href="#about">Tout Sur Moi</a></li>
+			<li><a href="#services">Mes Compétences</a></li>
+			<li><a href="#portfolio">Mes Projets</a></li>
+			<li><a href="#contact">Me Contacter</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
+
+	<!----Acceuil section design--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">Je m'appelle</span>
+			</div>
+			<h1>Frid N'KODIA</h1>
+			<h3>Etudiant en <span>Informatique</span></h3>
+			<p>Avec des compétences dans le développement Web et des applications mobiles<br> mais aussi en design et une expérience dans la mise en place des projets
+             et travail en équipe  .</p>
+			<div class="button">
+				<a href="mailto:nkodia_f@etna-alternance.net?subject=HTML" link class="btn">M'écrire</a>
+				<a href="https://github.com/RicardoNKODIA78" class="btn2"><span><i class='bx bx-code-alt'></i></span>Voir mes projets sur GitHub</a>
+			</div>
+		</div>
+	</section>
+
+	<!----about section design--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/rk2.png">
+		</div>
+
+		<div class="about-text">
+			<h2>Tout Sur <span>Moi</span></h2>
+			<h4>Développeur Web et Applicatif!</h4>
+			<p>Après mon baccalauréat S, je me suis dirigé vers l'informatique, en rejoignant <a href="https://iesig-education.com">IESIG de Paris 13</a>, pour une première année en développement web et applicatif. J'ai acquis des bases solides dans le Front-End, notamment le HTML/CSS3, JavaScript et PHP .
+				<br>
+				J'ai ensuite rejoins <a href="https://etna.io">l'ETNA (Ecole des Technologies Numériques Avancées)</a> pour mon master j'y apprends notamment : <br>
+					- le développement Front-End avec Html/css JavaScript, Typescript, React … <br>
+					- le développement Back-End avec PHP, Node.Js, Express et SQL .. <br>
+					- le développement mobile avec React native, swift, et Java ... <br>
+
+			Amoureux du design graphique, je suis inscrit en parallèle au programme de Webdesigner à <a href="https://www.studi.com/fr">l'école Studi (une école en ligne)</a> pour compléter mes connaissances et avoir accès aux cours et tutos intéressant, pour le fun comme les cours sur Unity ou pour le complément de ma formation comme Photoshop et toute la suite Adobe. cela me permettra d'obtenir un diplôme de Webdesigner.</p>
+			<a href="Moncv.pdf" download target="_blank" class="btn">Télécharger mon Curriculum vitae à jour</a>
+		</div>
+	</section>
+
+	<!----service section design--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<p>Durant mon parcours universitaire j'ai acquis divers compétences</p>
+			<h2><span>Mes</span> Compétences</h2>
+		</div>
+
+		<div class="services-content">
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Development Web</h3>
+				<p>Html/css, JavaScript, Typescript, React,  PHP, Node.Js, Express et SQL.</p>
+				
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Développement Mobile</h3>
+				<p>React native, swift, et Java.</p>
+				
+			</div>
+		
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Creation Design</h3>
+				<p>Photoshop, Illustrator, InDesign, XD, Premiere Pro, After Effects, Animate....</p>
+				
+			</div>
+
+		</div>
+	</section>
+
+	<!----projets section design--->
+
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Mes projets</p>
+			<h2><span>Scolaires</span> et Personnels</h2>
+		</div>
+  <!--COLONES DE MES PROJETS -->
+
+		<div class="portfolio-content">
+
+						<!--                   PROJETS 1 				-->
+
+			<div class="row">
+				<img src="img/pPphoshop.png">
+				<div class="layer">
+					<h5>Mes petits projets pour apprendre PhotoShop</h5>
+					<p>Ici je fais des projets de niveau 1 pour apprendre les bases du logiciel graphique Photoshop et Illustrator .</p>
+					<a href="https://github.com/RicardoNKODIA78/Rend-photoshop"><i class='bx bx-link-external' ></i>Lien pour voir les fichiers</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/pPbatiment.png">
+				<div class="layer">
+					<h5>Site vitrine Pour une Entreprise Immobilière</h5>
+					<p>Ici je fais un site pour une entreprise immobilère.</p>
+					<a href="https://github.com/RicardoNKODIA78/projetSiteEntrepriseBatiment"><i class='bx bx-link-external' ></i>Lien pour voir les fichiers</a>
+				</div>
+			</div>
+
+			<!-- <div class="row">
+				<img src="img/portfolio3.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div> -->
+
+				<!--                   PROJETS 1 				-->
+
+			<!-- <div class="row">
+				<img src="img/portfolio4.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/portfolio5.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/portfolio6.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+		</div> -->
+
+			<!--                   PROJETS 1 				-->
+	</section>
+
+	<!--COLONES DE MES PROJETS -->
+
+	<!----contact section design--->
+
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contactez <span>Moi!</span></h2>
+			<h4>Aujourd'hui, je suis à recherche d'une entreprise pour utiliser mes compétences en développement web et mobile dans le cadre d'un contrat d'alternance à partir de mars 2023 ..</h4>
+			<p>Je suis disponible tout le temps, vous pouvez me contacter par mon numéro ou par Mail ou sur LinkeDIn en cliquant sur l'icon juste en bas ! Merci  </p>
+			<div class="list">
+				<li><a href="tel: +33652186686">07 52 18 66 86</a></li>
+				<li><a href="mailto:nkodia_f@etna-alternance.net?subject=HTML">nkodia_f@etna-alternace.net</a></li>
+				<li><a href="https://www.linkedin.com/in/frid-ricardo-n-kodia-332763251/">Like Partage & Abonne Toi</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="https://www.linkedin.com/in/frid-ricardo-n-kodia-332763251/"><i class='bx bxl-linkedin' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<img src="img/rk1.png">
+		</div>
+	</section>
+
+	<!----end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2022 par Frid N'KODIA tous les droits sont réservés.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>
